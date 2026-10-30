@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 745e3e69032cb22428fec7d9b33210e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3689070525998627473
+    second: PepeTW-Sheet_0
+  - first:
+      213: -3601677623780075928
+    second: PepeTW-Sheet_1
+  - first:
+      213: 1458175975025806608
+    second: PepeTW-Sheet_2
+  - first:
+      213: -4444454697003118601
+    second: PepeTW-Sheet_3
+  - first:
+      213: -2494548276298713942
+    second: PepeTW-Sheet_4
+  - first:
+      213: 4699161058215749339
+    second: PepeTW-Sheet_5
+  - first:
+      213: -4946092448525227865
+    second: PepeTW-Sheet_6
+  - first:
+      213: 1792912606854318166
+    second: PepeTW-Sheet_7
+  - first:
+      213: -3486322401146002839
+    second: PepeTW-Sheet_8
+  - first:
+      213: -482896440697924826
+    second: PepeTW-Sheet_9
+  - first:
+      213: -6708682889498412003
+    second: PepeTW-Sheet_10
+  - first:
+      213: 2706485977341615973
+    second: PepeTW-Sheet_11
+  - first:
+      213: 429136019306465483
+    second: PepeTW-Sheet_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PepeTW-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19af28d0916323330800000000000000
+      internalID: 3689070525998627473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 27
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8669d1f9845440ec0800000000000000
+      internalID: -3601677623780075928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0c63d25b7c3410800000000000000
+      internalID: 1458175975025806608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff00d430002252c0800000000000000
+      internalID: -4444454697003118601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4f6243f85916dd0800000000000000
+      internalID: -2494548276298713942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 27
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd66c41d516c63140800000000000000
+      internalID: 4699161058215749339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 26
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a86963af13fb5bb0800000000000000
+      internalID: -4946092448525227865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 27
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6580fd44484b1e810800000000000000
+      internalID: 1792912606854318166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962a43b5f381e9fc0800000000000000
+      internalID: -3486322401146002839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62356e4ee386c49f0800000000000000
+      internalID: -482896440697924826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 28
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cb4b4c478f5e2a0800000000000000
+      internalID: -6708682889498412003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 27
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fd50528ae5f8520800000000000000
+      internalID: 2706485977341615973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PepeTW-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 26
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc846179fe894f500800000000000000
+      internalID: 429136019306465483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PepeTW-Sheet_0: 3689070525998627473
+      PepeTW-Sheet_1: -3601677623780075928
+      PepeTW-Sheet_10: -6708682889498412003
+      PepeTW-Sheet_11: 2706485977341615973
+      PepeTW-Sheet_12: 429136019306465483
+      PepeTW-Sheet_2: 1458175975025806608
+      PepeTW-Sheet_3: -4444454697003118601
+      PepeTW-Sheet_4: -2494548276298713942
+      PepeTW-Sheet_5: 4699161058215749339
+      PepeTW-Sheet_6: -4946092448525227865
+      PepeTW-Sheet_7: 1792912606854318166
+      PepeTW-Sheet_8: -3486322401146002839
+      PepeTW-Sheet_9: -482896440697924826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

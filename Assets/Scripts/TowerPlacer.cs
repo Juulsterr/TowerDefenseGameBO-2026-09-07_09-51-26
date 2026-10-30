@@ -10,6 +10,7 @@ public class TowerPlacer : MonoBehaviour
     public GameObject ghostPrefab;
     private HashSet<Vector3Int> occupiedTiles = new HashSet<Vector3Int>();
     private GameObject ghostInstance;
+    public AudioClip placementSFX; 
 
     void Update()
     {
@@ -81,10 +82,13 @@ public class TowerPlacer : MonoBehaviour
         // Plaats de toren
         Instantiate(TowerSelectionUI.SelectedTowerPrefab, ghostInstance.transform.position, Quaternion.identity);
 
+        CoinManager.instance.UpdateCoins(-TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>().towerPrice);
+
         // Reset de selectie en ruim de ghost op
         TowerSelectionUI.SelectedTowerPrefab = null;
         if (ghostInstance != null)
         {
+            AudioManager.instance.PlaySFX(placementSFX);    
             Destroy(ghostInstance);
             ghostInstance = null;
         }

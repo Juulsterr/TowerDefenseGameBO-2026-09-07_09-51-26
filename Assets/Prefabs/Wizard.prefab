@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8995236852818330439}
   - component: {fileID: 8474966082946116593}
+  - component: {fileID: 2498685641634674938}
+  - component: {fileID: -1820303423050055643}
   m_Layer: 0
   m_Name: Wizard
   m_TagString: Untagged
@@ -26,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 2878394639903738010}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.45, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,14 +83,91 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 0528d4dc9102ed149af7e44771f55305, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 368c2c04e6f2077478a6aff21ce6b1a0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.5, y: 1.26}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &2498685641634674938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878394639903738010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a13551a9660f894bb047c057b1f7915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tower
+  range: 5
+  fireRate: 1.5
+  projectilePrefab: {fileID: 2395424606777294177, guid: 2f0b221dd686d0c4e92a957315e6123d, type: 3}
+  firePoint: {fileID: 8995236852818330439}
+  upgradeStages:
+  - range: 15
+    fireRange: 4.5
+    sprite: {fileID: 21300000, guid: 368c2c04e6f2077478a6aff21ce6b1a0, type: 3}
+    price: 30
+    fireRate: 1
+  - range: 50
+    fireRange: 10
+    sprite: {fileID: 21300000, guid: 368c2c04e6f2077478a6aff21ce6b1a0, type: 3}
+    price: 75
+    fireRate: 1
+  upgradeStage: 0
+  towerUpgradeUIPrefab: {fileID: 2521978072460491869, guid: d6e6a79fdef305c4598300e7df08d528, type: 3}
+  towerPrice: 10
+  cloudPS: {fileID: 8931917477528326335, guid: b88683d82ae1f704d8f2563c8de93d38, type: 3}
+--- !u!61 &-1820303423050055643
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878394639903738010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.5, y: 1.26}
+  m_EdgeRadius: 0
