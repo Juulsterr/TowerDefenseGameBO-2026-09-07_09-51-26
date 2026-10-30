@@ -1,3 +1,2 @@
 # TowerDefenseGameBO
-#TEST TEST TEST
-werk t
+Build komt er aan binnen enkele minuten
