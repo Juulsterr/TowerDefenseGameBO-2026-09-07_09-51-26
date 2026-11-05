@@ -3194,7 +3194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd7a6e6dd59a0c14a963a3cd0e6cc503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthManager
-  Health: 100
   HealthText: {fileID: 2093480699}
 --- !u!1 &1249832480
 GameObject:
@@ -4688,9 +4687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2c217249876ab54f88d0feaee220fba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpeedManager
-  speedUp: 0
-  speedButtonImage: {fileID: 1730779285}
   normalColor: {r: 0.40784317, g: 0.40784317, b: 0.40784317, a: 0}
+  speedButtonImage: {fileID: 1730779285}
   speedUpColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
 --- !u!1 &1749183469
 GameObject:
@@ -5386,7 +5384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerPlacer
   placementTilemap: {fileID: 531544625}
-  NonPlacementTilemap: {fileID: 1676447353}
+  nonPlacementTilemap: {fileID: 1676447353}
   ghostPrefab: {fileID: 7121054738140444280, guid: be6414867a4c39642b901f51a7f128a7, type: 3}
   placementSFX: {fileID: 8300000, guid: 7513ab11762a5744d82693df4e6ae214, type: 3}
 --- !u!4 &2134378899

@@ -111,19 +111,22 @@ MonoBehaviour:
   projectilePrefab: {fileID: 2395424606777294177, guid: 2f0b221dd686d0c4e92a957315e6123d, type: 3}
   firePoint: {fileID: 8995236852818330439}
   upgradeStages:
-  - range: 15
-    fireRange: 4.5
+  - fireRange: 4.5
     sprite: {fileID: 21300000, guid: 368c2c04e6f2077478a6aff21ce6b1a0, type: 3}
     price: 30
+    range: 15
     fireRate: 1
-  - range: 50
-    fireRange: 10
+  - fireRange: 10
     sprite: {fileID: 21300000, guid: 368c2c04e6f2077478a6aff21ce6b1a0, type: 3}
     price: 75
+    range: 50
     fireRate: 1
   upgradeStage: 0
+  sr: {fileID: 8474966082946116593}
   towerUpgradeUIPrefab: {fileID: 2521978072460491869, guid: d6e6a79fdef305c4598300e7df08d528, type: 3}
+  currentUI: {fileID: 0}
   towerPrice: 10
+  fireCooldown: 0
   cloudPS: {fileID: 8931917477528326335, guid: b88683d82ae1f704d8f2563c8de93d38, type: 3}
 --- !u!61 &-1820303423050055643
 BoxCollider2D:

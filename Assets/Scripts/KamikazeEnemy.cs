@@ -3,12 +3,21 @@ using UnityEngine;
 public class KamikazeEnemy : Enemy
 {
     [Header("Kamikaze Instellingen")]
-    public float explosionRadius = 0.5f; 
+    [SerializeField]
+    private float explosionRadius = 0.5f;
+    public float ExplosionRadius 
+    { 
+        get { return explosionRadius; } 
+        set { explosionRadius = value; }
+    }
 
     [Header("Visuele Effecten")]
-    public Sprite wreckageSprite;               // Sleep hier je getekende puin-sprite uit LibreSprite in!
-    public GameObject explosionParticlePrefab;  // Sleep hier je wolkjes/explosie particle prefab in!
-    public AudioClip bombSFX;
+    [SerializeField]
+    private Sprite wreckageSprite;               // Sleep hier je getekende puin-sprite uit LibreSprite in!
+    [SerializeField]
+    private GameObject explosionParticlePrefab;  // Sleep hier je wolkjes/explosie particle prefab in!
+    [SerializeField]
+    private AudioClip bombSFX;
 
     private Transform targetTower;
 
@@ -26,9 +35,9 @@ public class KamikazeEnemy : Enemy
         }
 
         Vector3 dir = (targetTower.position - transform.position).normalized;
-        transform.position += dir * speed * Time.deltaTime;
+        transform.position += dir * Speed * Time.deltaTime;
 
-        if (Vector3.Distance(transform.position, targetTower.position) <= explosionRadius)
+        if (Vector3.Distance(transform.position, targetTower.position) <= ExplosionRadius)
         {
             ExplodeAndLeaveWreckage();
         }

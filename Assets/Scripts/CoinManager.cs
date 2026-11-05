@@ -6,10 +6,21 @@ public class CoinManager : MonoBehaviour
     public static CoinManager instance;
 
     [Header("Coin Data")]
-    public int coins = 0;
+    [SerializeField]
+    private int coins = 0;
+    public int Coins 
+    { 
+        get { return coins; } 
+        set { coins = value; }
+    } // Publieke getter voor het aantal munten 
 
     [Header("UI Reference")]
-    public TextMeshProUGUI coinText;
+    [SerializeField]
+    private TextMeshProUGUI coinText;
+    public TextMeshProUGUI CoinText 
+    { 
+        get { return coinText; }
+    } // Publieke getter en setter voor het tekstveld in de UI
 
     private void Awake()
     {

@@ -2,10 +2,25 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float speed = 8f;
-    public Transform target;
-    public GameObject hitPS;
-    public AudioClip hitSFX;
+    [SerializeField]
+    private float speed = 8f;
+    public float Speed 
+    { 
+        get { return speed; } 
+        set { speed = value; }
+    } // Publieke getter en setter voor de snelheid van het projectiel
+
+    [SerializeField]
+    private Transform target;
+    public Transform Target 
+    { 
+        get { return target; } 
+        set { target = value; }
+    } // Publieke getter en setter voor het doelwit van het projectiel
+    [SerializeField]
+    private AudioClip hitSFX;
+    [SerializeField]
+    private GameObject hitPS;
 
     void Update()
     {
@@ -16,7 +31,7 @@ public class Projectile : MonoBehaviour
         }
 
         Vector3 dir = (target.position - transform.position).normalized;
-        transform.position += dir * speed * Time.deltaTime;
+        transform.position += dir * Speed * Time.deltaTime;
 
         float angle = Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
@@ -27,12 +42,12 @@ public class Projectile : MonoBehaviour
 
             if (e != null)
             {
-                e.health -= 1;
+                e.Health -= 1;
 
-                if (e.health <= 0)
+                if (e.Health <= 0)
                 {
                     // Haal het aantal munten op van deze specifieke vijand
-                    CoinManager.instance.UpdateCoins(e.coinEarning);
+                    CoinManager.instance.UpdateCoins(e.CoinEarning);
                     Destroy(target.gameObject);
                 }
             }

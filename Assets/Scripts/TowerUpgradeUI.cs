@@ -4,9 +4,27 @@ using UnityEngine.UI;
 
 public class TowerUpgradeUI : MonoBehaviour
 {
-    public Tower tower;
-    public Button upgradeButton;
-    public TextMeshProUGUI priceText;
+    [SerializeField]
+    private Tower tower;
+    public Tower Tower
+    {
+        get { return tower; }
+        set { tower = value; }
+    } // Publieke getter en setter voor de toren die wordt geüpgraded
+    [SerializeField]
+    private Button upgradeButton;
+    public Button UpgradeButton
+    {
+        get { return upgradeButton; }
+        set { upgradeButton = value; }
+    } // Publieke getter voor de upgrade knop
+    [SerializeField]
+    private TextMeshProUGUI priceText;
+    public TextMeshProUGUI PriceText
+    {
+        get { return priceText; }
+        set { priceText = value; }
+    } // Publieke getter voor het tekstveld dat de prijs toont
 
     private bool justOpened = true;
     
@@ -16,7 +34,7 @@ public class TowerUpgradeUI : MonoBehaviour
     }
     private void TryUpgrade()
     {
-        if (CoinManager.instance.coins < tower.upgradeStages[tower.upgradeStage].price) return;
+        if (CoinManager.instance.Coins < tower.upgradeStages[tower.upgradeStage].Price) return;
         tower.Upgrade();
 
         Destroy(gameObject);

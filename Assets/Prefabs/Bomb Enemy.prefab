@@ -110,8 +110,7 @@ MonoBehaviour:
   damage: 1
   coinEarning: 25
   waypoints: []
-  currentWayPoint: 0
   explosionRadius: 0.5
   wreckageSprite: {fileID: 21300000, guid: b1578cbbcea0a8543924b34dcb9b1832, type: 3}
-  explosionParticlePrefab: {fileID: 0}
+  explosionParticlePrefab: {fileID: 8931917477528326335, guid: b88683d82ae1f704d8f2563c8de93d38, type: 3}
   bombSFX: {fileID: 8300000, guid: fb0bdc48ad809bf41a123130f12452d4, type: 3}

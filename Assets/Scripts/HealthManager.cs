@@ -6,7 +6,13 @@ public class HealthManager : MonoBehaviour
 {
     public static HealthManager instance;
 
-public int Health = 100;
+private int Health = 100;
+public int health 
+    { 
+        get { return Health; } 
+        set { Health = value; }
+    }
+
 public TextMeshProUGUI HealthText;
 
 private void Awake()

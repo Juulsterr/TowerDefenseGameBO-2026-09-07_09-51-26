@@ -3,10 +3,18 @@ using UnityEngine.UI;
 
 public class SpeedManager : MonoBehaviour
 {
-    public bool speedUp;
-    public Image speedButtonImage;
-    public Color normalColor;
-    public Color speedUpColor;
+    private bool speedUp;
+    public bool SpeedUp 
+    { 
+        get { return speedUp; } 
+        set { speedUp = value; }
+    } // Publieke getter en setter voor de snelheid van het spel
+    [SerializeField]
+    private Color normalColor;
+    [SerializeField]
+    private Image speedButtonImage;
+    [SerializeField]
+    private Color speedUpColor;
 
     public void ToggleSpeed()
     {

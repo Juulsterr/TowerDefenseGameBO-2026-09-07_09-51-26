@@ -5,12 +5,32 @@ using UnityEngine.EventSystems;
 
 public class TowerPlacer : MonoBehaviour
 {
-    public Tilemap placementTilemap;
-    public Tilemap NonPlacementTilemap;
-    public GameObject ghostPrefab;
+    [SerializeField]
+    private Tilemap placementTilemap;
+    public Tilemap PlacementTilemap
+    {
+        get { return placementTilemap; }
+    }
+    [SerializeField]
+    private Tilemap nonPlacementTilemap;
+    public Tilemap NonPlacementTilemap
+    {
+        get { return nonPlacementTilemap; }
+    }
+    [SerializeField]
+    private GameObject ghostPrefab;
+    public GameObject GhostPrefab
+    {
+        get { return ghostPrefab; }
+    }
     private HashSet<Vector3Int> occupiedTiles = new HashSet<Vector3Int>();
     private GameObject ghostInstance;
-    public AudioClip placementSFX; 
+        [SerializeField]
+        private AudioClip placementSFX; 
+        public AudioClip PlacementSFX
+        {
+            get { return placementSFX; }
+        }
 
     void Update()
     {
@@ -82,7 +102,7 @@ public class TowerPlacer : MonoBehaviour
         // Plaats de toren
         Instantiate(TowerSelectionUI.SelectedTowerPrefab, ghostInstance.transform.position, Quaternion.identity);
 
-        CoinManager.instance.UpdateCoins(-TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>().towerPrice);
+        CoinManager.instance.UpdateCoins(-TowerSelectionUI.SelectedTowerPrefab.GetComponent<Tower>().TowerPrice);
 
         // Reset de selectie en ruim de ghost op
         TowerSelectionUI.SelectedTowerPrefab = null;
